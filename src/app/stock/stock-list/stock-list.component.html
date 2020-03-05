@@ -1,0 +1,21 @@
+<br>
+<table>
+    <thead>
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Price with taxes</th>
+        <th>Amount in stock</th>
+        <th>Total price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let stock of stocks">
+        <td data-column="name"> {{ stock.name | titlecase }} </td>
+        <td data-column="price"> {{ stock.price }} </td>
+        <td data-column="tax"> {{ stock.tax }} </td>
+        <td data-column="amount"> {{ stock.stock }} </td>
+        <td data-column="total_stock_price"> {{ stock.total_stock_price }} </td>
+    </tr>
+    </tbody>
+</table>
