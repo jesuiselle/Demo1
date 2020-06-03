@@ -1,5 +1,7 @@
 # Angular
 
+Task: Complete the component called stockComponent that will show you a list of all products and allow you to add some more, using CSS for styling.
+
 ...
 Ivy Workspace:
 
